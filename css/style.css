@@ -11,13 +11,13 @@ body {
 
 /* Navigation bar (shared style) */
 .toplinks {
-    background-color: #222;
+    background-color: #311e1e;
     overflow: hidden;
 }
 
 .toplinks a {
     float: left;
-    color: white;
+    color:rgb(153, 3, 101);
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -27,7 +27,7 @@ body {
 
 .toplinks a:hover {
     background-color: white;
-    color: #222;
+    color: #ae798f;
 }
 
 /* Footer */
@@ -48,15 +48,15 @@ INDEX PAGE (DARK THEME)
 
 .index-page {
     background-color: #310E10;
-    color: #F4E3B2;
+    color: #e8d59b;
 }
 
 .index-page a {
-    color: #F4E3B2;
+    color: #d9ca9c;
 }
 
 .index-page nav {
-    background-color: #1f0809;
+    background-color: #1a0708;
 }
 
 
@@ -65,8 +65,8 @@ INDEX PAGE (DARK THEME)
 ========================= */
 
 .content-page {
-    background-color: #F4E3B2;
-    color: #947268;
+    background-color: #e0cf9b;
+    color: #3d2822;
 }
 
 .content-page a {
