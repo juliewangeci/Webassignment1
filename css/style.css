@@ -1,0 +1,78 @@
+/* =========================
+   GLOBAL STYLES (ALL PAGES)
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation bar (shared style) */
+.toplinks {
+    background-color: #222;
+    overflow: hidden;
+}
+
+.toplinks a {
+    float: left;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.toplinks a:hover {
+    background-color: white;
+    color: #222;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Images */
+img {
+    border-radius: 10px;
+}
+
+
+/* =========================
+INDEX PAGE (DARK THEME)
+========================= */
+
+.index-page {
+    background-color: #310E10;
+    color: #F4E3B2;
+}
+
+.index-page a {
+    color: #F4E3B2;
+}
+
+.index-page nav {
+    background-color: #1f0809;
+}
+
+
+/* =========================
+   📄 ALL OTHER PAGES (LIGHT THEME)
+========================= */
+
+.content-page {
+    background-color: #F4E3B2;
+    color: #947268;
+}
+
+.content-page a {
+    color: #947268;
+}
+
+.content-page nav {
+    background-color: #e6d3a8;
+}
