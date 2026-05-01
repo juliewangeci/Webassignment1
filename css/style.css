@@ -1,23 +1,26 @@
 /* =========================
-   GLOBAL STYLES (ALL PAGES)
+   BASE STYLES
 ========================= */
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
-/* Navigation bar (shared style) */
+/* =========================
+   NAVIGATION BAR
+========================= */
+
 .toplinks {
-    background-color: #311e1e;
+    background-color: #74070E; /* Blood Red */
     overflow: hidden;
 }
 
 .toplinks a {
     float: left;
-    color:rgb(211, 185, 124);
+    color: #F4E3B2; /* Vanilla */
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -26,53 +29,71 @@ body {
 }
 
 .toplinks a:hover {
-    background-color: white;
-    color: #ae798f;
+    background-color: #F4E3B2;
+    color: #74070E;
 }
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
-/* Images */
-img {
-    border-radius: 10px;
-}
-
 
 /* =========================
-INDEX PAGE (DARK THEME)
+   INDEX PAGE (DARK HERO)
 ========================= */
 
 .index-page {
-    background-color: #310E10;
-    color: #e8d59b;
+    background-color: #310E10; /* Black Bean */
+    color: #F4E3B2;
+    padding: 20px;
 }
-
-.index-page a {
-    color: #d9ca9c;
-}
-
-.index-page nav {
-    background-color: #1a0708;
-}
-
 
 /* =========================
-   📄 ALL OTHER PAGES (LIGHT THEME)
+   CONTENT PAGES (CLEAN LIGHT)
 ========================= */
 
 .content-page {
-    background-color: #e0cf9b;
-    color: #3d2822;
+    background-color: #F4E3B2; /* Vanilla */
+    color: #310E10;
+    padding: 20px;
 }
 
-.content-page a {
-    color: #947268;
+/* =========================
+   HEADINGS
+========================= */
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
 }
 
-.content-page nav {
-    background-color: #e6d3a8;
+h2 {
+    margin-top: 30px;
+    color: #74070E;
+}
+
+/* =========================
+   PARAGRAPHS (CLEAN CARD LOOK)
+========================= */
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* =========================
+   IMAGES
+========================= */
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 90%;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
 }
